@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="163828" started-at="2020-05-15T19:49:24 IST" finished-at="2020-05-15T19:52:07 IST">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="163828" started-at="2020-05-15T19:49:24 IST" finished-at="2020-05-15T19:52:07 IST">
+      <class name="com.App.HealthifyMe.Suite.TestSuite">
+        <test-method status="PASS" signature="Base()[pri:0, instance:com.App.HealthifyMe.Suite.TestSuite@11758f2a]" name="Base" is-config="true" duration-ms="17327" started-at="2020-05-15T19:49:24 IST" finished-at="2020-05-15T19:49:41 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Base -->
+        <test-method status="PASS" signature="Healthify_WorkoutOperation()[pri:0, instance:com.App.HealthifyMe.Suite.TestSuite@11758f2a]" name="Healthify_WorkoutOperation" duration-ms="146479" started-at="2020-05-15T19:49:41 IST" finished-at="2020-05-15T19:52:07 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Healthify_WorkoutOperation -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.App.HealthifyMe.Suite.TestSuite@11758f2a]" name="tearDown" is-config="true" duration-ms="799" started-at="2020-05-15T19:52:07 IST" finished-at="2020-05-15T19:52:08 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.App.HealthifyMe.Suite.TestSuite -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
