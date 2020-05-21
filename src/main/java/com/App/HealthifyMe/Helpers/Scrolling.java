@@ -20,14 +20,14 @@ public class Scrolling extends BaseDriver{
 		
 	Dimension dimension = driver.manage().window().getSize();
 		
-		Double ScrollHeightStart = dimension.getHeight() * 0.5;
+		Double ScrollHeightStart = dimension.getHeight() * 0.6;
 		int ScrollStart = ScrollHeightStart.intValue();
 		
 		Double ScrollHeightEnd = dimension.getHeight() * 0.2;
 		int ScrollEnd = ScrollHeightEnd.intValue();
 		
 		TouchAction touchAction = new TouchAction(driver);
-		touchAction.press(PointOption.point(0, ScrollStart)).waitAction(WaitOptions.waitOptions(Duration.ofMillis(2000)))
+		touchAction.press(PointOption.point(0, ScrollStart)).waitAction(WaitOptions.waitOptions(Duration.ofMillis(1000)))
 				.moveTo(PointOption.point(0, ScrollEnd)).release().perform();
 		
 		
